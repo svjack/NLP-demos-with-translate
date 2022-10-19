@@ -55,6 +55,7 @@ trans_model = EasyNMT('opus-mt')
 trans_model.translate(
     "Who are you ?", source_lang="en", target_lang = "zh"
 )
+'''
 pool = trans_model.start_multi_process_pool(["cpu"] * 5)
 
 print(len(all_eng_text_list))
@@ -63,6 +64,11 @@ trans_list = trans_model.translate_multi_process(pool ,req,
        source_lang="en", target_lang = "zh")
 
 trans_model.stop_multi_process_pool(pool)
+'''
+req = all_eng_text_list
+trans_list = trans_model.translate(req,
+       source_lang="en", target_lang = "zh")
+
 
 ds_df = pd.DataFrame(list(zip(*[req, trans_list])))
 ds_df.columns = ["en", "zh"]
