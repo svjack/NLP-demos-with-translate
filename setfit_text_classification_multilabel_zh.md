@@ -2,7 +2,7 @@
 
  [setfit](https://github.com/huggingface/setfit) use sentencetransformer in few shot learning Scene. This is a brief demo of it use in dataset translate into Chinese.
 
- code located in setfit_text_classification_multilabel_zh.py
+ code located in [setfit_text_classification_multilabel_zh.py](https://github.com/svjack/NLP-demos-with-translate/blob/main/setfit_text_classification_multilabel_zh.py)
 
  Use dataset: [ethos](https://huggingface.co/datasets/ethos) is a onlinE haTe speecH detectiOn dataSet contains a dataset for hate speech detection on social media platforms, called Ethos.
 
