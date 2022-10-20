@@ -31,4 +31,4 @@ and use [EasyNMT](https://github.com/UKPLab/EasyNMT) to translate the source tex
 
 The model output seems reasonable after training.
 
-For reproduce the output, cd into ethos_to_p_tuning path and run ethos_to_p_tuning_data.py (this will produce the dataset used by PaddleNLP dataset interface), then run ethos_to_p_tuning.py (will train a model with epoch num 50 and do some single sentence evaluations)
+For reproduce the output, cd into ethos_to_p_tuning path and run [ethos_to_p_tuning_data.py](https://github.com/svjack/NLP-demos-with-translate/blob/main/ethos_to_p_tuning/ethos_to_p_tuning_data.py) (this will produce the dataset used by PaddleNLP dataset interface), then run [ethos_to_p_tuning.py](https://github.com/svjack/NLP-demos-with-translate/blob/main/ethos_to_p_tuning/ethos_to_p_tuning.py) (will train a model with epoch num 50 and do some single sentence evaluations)
