@@ -2,7 +2,9 @@
 
 a Paddle demo use [P_Tuning](https://github.com/PaddlePaddle/PaddleNLP/tree/develop/examples/few_shot/p-tuning) about few shot learning.
 
+<!--
  code located in [setfit_text_classification_multilabel_zh.py](https://github.com/svjack/NLP-demos-with-translate/blob/main/setfit_text_classification_multilabel_zh.py)
+-->
 
  Use dataset: [ethos](https://huggingface.co/datasets/ethos) is a onlinE haTe speecH detectiOn dataSet contains a dataset for hate speech detection on social media platforms, called Ethos.
 
