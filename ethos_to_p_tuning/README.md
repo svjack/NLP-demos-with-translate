@@ -2,6 +2,11 @@
 
 a Paddle demo use [P_Tuning](https://github.com/PaddlePaddle/PaddleNLP/tree/develop/examples/few_shot/p-tuning) about few shot learning.
 
+## Installtion
+```bash
+pip install -r requirements.txt
+```
+
 <!--
  code located in [setfit_text_classification_multilabel_zh.py](https://github.com/svjack/NLP-demos-with-translate/blob/main/setfit_text_classification_multilabel_zh.py)
 -->
