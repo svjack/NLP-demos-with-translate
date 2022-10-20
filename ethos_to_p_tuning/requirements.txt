@@ -1,0 +1,3 @@
+easynmt
+paddlepaddle==2.3.2
+paddlenlp==2.4.1
