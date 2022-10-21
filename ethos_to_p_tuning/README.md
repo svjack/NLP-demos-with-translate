@@ -20,14 +20,14 @@ pip install -r requirements.txt
  `national_origin`,
  `disability`,
  `religion`,
- `sexual_orientation`) and only use (`gender`,
+ `sexual_orientation`) only use (`gender`,
  `race`,
  `national_origin`,
  `disability`,
  `religion`,
  `sexual_orientation`) and samples with unique label.
 
-and use [EasyNMT](https://github.com/UKPLab/EasyNMT) to translate the source text corpus into Chinese. (classes map to 性别 种族	民族 宗教	残疾 性取向)
+use [EasyNMT](https://github.com/UKPLab/EasyNMT) to translate the source text corpus into Chinese. (classes map to 性别 种族	民族 宗教	残疾 性取向)
 
 The model output seems reasonable after training.
 
