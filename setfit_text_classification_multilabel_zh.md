@@ -15,6 +15,6 @@
  `religion`,
  `sexual_orientation`)
 
-and use [EasyNMT](https://github.com/UKPLab/EasyNMT) to translate the source text corpus into Chinese. (classes map to 暴力	定向-通用	性别	种族	民族原籍	残疾	宗教	性取向和)
+and use [EasyNMT](https://github.com/UKPLab/EasyNMT) to translate the source text corpus into Chinese. (classes map to 暴力	定向-通用	性别	种族	民族原籍	残疾	宗教	性取向)
 
 The model output seems reasonable after training.
