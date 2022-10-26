@@ -83,6 +83,8 @@ parser.add_argument("--rdrop_coef", default=0.0, type=float, help="The coefficie
 ###args = parser.parse_args()
 
 #### toolkit to transform argument parser to dict or namedtuple
+#### or use open source toolkit: https://github.com/roee30/datargs
+#### !pip install datargs
 def parse_parser_add_arg(parser, as_named_tuple = False):
     args_df = pd.DataFrame(
     pd.Series(parser.__dict__["_actions"]).map(
